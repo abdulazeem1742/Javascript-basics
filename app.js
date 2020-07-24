@@ -1,4 +1,4 @@
-//Chapter-1 Alerts:
+////////////////////////////////////Chapter-1 Alerts////////////////////////////////////////////
 //alert("Asalam Alaikum! Welcome! ")
 
 //alert("Error! Please enter a valid pasword.")
@@ -10,7 +10,7 @@
 
 //alert("Hello...I can run JS through my web browser's console")
 
-//Chapter-2 Variables for string:
+/////////////////////////////////////////Chapter-2 Variables for string///////////////////////////////////////////////////
 //  var username ='Azeem'
 //  document.write(username)
 
@@ -39,7 +39,7 @@
 // alert(code)
 
 
-//Chapter-3 Variable for Number:
+/////////////////////////////////////////////////////////////////////////Chapter-3 Variable for Number///////////////////////////////////////////////////////////////////////
 
 
 // var age ="I am 20 years old"
@@ -48,15 +48,47 @@
 // var birthYear =prompt("")
 // document.write('My birth year is' + birthYear)
 
-
+///////////////////////////////////////////////////////////////////////Chapter 4///////////////////////////////////////////////////////////////////////
 // var variable1 = "Hi there",
 //     variable2 = "i am checking or testing the variables..",
 //     variable3 = '3';
 // document.write(variable1 + variable2 + variable3)
 
 
-//var legalVar = 'Username', '' 
+//var legalVar = 'Username', 'firstname','lastname','age','popularname' 
+//var ilegalVar= '1name', '@Age','12345','$$$$','ASDK$12'
 
+
+////////////////////////////////////////////////Chapter-5////////////////////////////////////////////////
+
+
+// var val1=prompt('enter your first value')
+// var val2=prompt('enter your second value')
+// var sign=prompt('enter you operator')
+
+// if(sign === '+'){
+//     document.write("Sum of"+(+val1)+(+val2))
+
+// var val1=prompt('enter your first value')
+// var val2=prompt('enter your second value')
+// var sign=prompt('enter you operator')
+
+// if(sign === '-'){
+//     document.write((+val1)-(+val2))
+
+// var val1=prompt('enter your first value')
+// var val2=prompt('enter your second value')
+// var sign=prompt('enter you operator')
+
+// if(sign === '*'){
+//     document.write((+val1)*(+val2))
+
+// function calcPrice(qty, price){
+//     return qty * price;
+//   }
+
+//for(var i=1; i <=10; i++){
+// document.write("4" + "x" +i +"=" +4*i + "<br>")
 
 // var num =10;
 // var anotherNum = 1;
@@ -355,7 +387,7 @@
 
 
 
-//Stop-Watch:
+////////////////////////////////////Stop-Watch/////////////////////////
 
 
 // var min =0;
@@ -398,3 +430,44 @@
 //     clearInterval(interval)
 // }
 
+
+
+///////////////////////////////Chapter 58-67//////////////////////////////////////////////
+
+1.//var a =document.getElementById('main-content')
+
+
+2.//var a =document.getElementById("main-content")
+//console.log(a.childNodes[0])
+//console.log(a.childNodes[1])
+//console.log(a.childNodes[3])
+
+
+4.// document.getElementById("first-name").value ="Abdul"
+
+5.// document.getElementById("email").value ="xyz@gmail.com"
+
+/ / / / / // / / Question 2 // / / / / / / / 
+
+1.// var a =document.getElementById("form-content")
+//console.log(a.nodeType)
+
+
+2.//var a =document.getElementById("last-name")
+//console.log(a.nodeType)
+//console.log(a.childNodes)
+
+
+4.//var a =document.getElementById("main-content")
+//console.log(a.firstChild)
+//console.log(a.lastElementChild)
+
+
+5.//var a document.getElementById("last-name")
+//console.log(a.previousElementSibling)
+//console.log(a.nextElementSibling)
+
+
+5.//var a=document.getElementById("email")
+//console.log(a.parentNode)
+//console.log(a.nodeType)
